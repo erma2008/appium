@@ -1,4 +1,5 @@
 pipeline {
+agent anys
 	stages{
 		stage {
 		steps ('Step 1'){
