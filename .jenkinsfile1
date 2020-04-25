@@ -1,50 +1,46 @@
 pipeline {
-agent anys
+agent any
 	stages{
-		stage {
-		steps ('Step 1'){
+		stage ('Step 1'){
+		steps {
 		echo "executing step 1"
 			}
 		}
-		stage {
-		steps ('Step 2'){
+		stage ('Step 2'){
+		steps {
 		echo "executing step 2"
 			}
 		}
-		stage {
-		steps ('Step 3'){
+		stage ('Step 3'){
+		steps {
 		echo "executing step 3"
 			}
 		}
-		stage {
-		steps ('Step 4'){
+		stage ('Step 4'){
+		steps {
 		echo "executing step 4"
 			}
 		}
-		stage {
-		steps ('Step 5'){
+		stage ('Step 5'){
+		steps {
 		echo "executing step 5"
 			}
 		}
-		stage {
-		steps ('Step 6'){
+		stage ('Step 6'){
+		steps {
 		echo "executing step 6"
 			}
 		}
-		stage {
-		steps ('Step 7'){
+		stage ('Step 7'){
+		steps {
 		echo "executing step 7"
 			}
 		}
-		stage {
-		steps ('Step 8'){
+		stage ('Step 8'){
+		steps {
 		echo "executing step 8"
 			}
 		}
-		stage {
-		steps ('Step 9'){
-		echo "executing step 9"
-			}
-		}
+		
 	}
 }
