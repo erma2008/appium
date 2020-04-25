@@ -1,0 +1,43 @@
+pipeline{
+	agent anys
+	stages {
+		stage('Build') {
+			steps{
+		     echo "Executing Build Job"
+			}
+		}
+		stage('Deploy to Dev') {
+			steps{
+			echo "Executing Deploy to dev"
+			}
+		}
+		stage('Unit tests') {
+		step {
+		 	echo "run unit tests"
+			}
+		}
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
